@@ -26,7 +26,7 @@ while True:
     # Press Esc key to exit
     key = cv2.waitKey(1)
     if key == 27:
-        print("Killing it")
+        print("[Info] Killing it")
         break
     elif key == 97:
         rotCode = None
